@@ -63,10 +63,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\_Project\Scripts\Health.cs" />
+    <Compile Include="Assets\_Project\Scripts\Stats.cs" />
     <Compile Include="Assets\_Project\Scripts\_Enemy\BasicEnemyFollow.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Enemy\EnemyHealth.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Enemy\Targetable.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Player\Abilities.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Player\AreaSensor.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Player\BasicAttack.cs" />
     <Compile Include="Assets\_Project\Scripts\_Player\CameraFollowPlayerScript.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Player\HealthSlider.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Player\InputTargeting.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Player\LookatMouse.cs" />
+    <Compile Include="Assets\_Project\Scripts\_Player\PlayerCombat.cs" />
     <Compile Include="Assets\_Project\Scripts\_Player\PlayerMovement.cs" />
-    <Compile Include="Assets\_Project\Scripts\_Player\Projectile.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/USER/Documents/Unity/matryoshka/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
